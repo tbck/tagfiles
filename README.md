@@ -1,0 +1,4 @@
+tagfiles
+========
+
+Slackware installation tagfiles
