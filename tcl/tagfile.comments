@@ -1,0 +1,9 @@
+# Slackware 14.1 [tcl] tagfile
+# Maintained by Tyler Buck
+#
+expect:SKP
+hfsutils:SKP
+tcl:SKP
+tclx:SKP
+tix:SKP
+tk:SKP

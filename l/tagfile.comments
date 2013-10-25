@@ -1,0 +1,315 @@
+# Slackware 14.1 [l] tagfile
+# Maintained by Tyler Buck
+#
+# screw console kit
+ConsoleKit:SKP
+# probably needed for some gtk but SKP until complaints
+GConf:SKP
+# crypto & ssl toolkit for python
+M2Crypto:SKP
+PyQt:SKP
+QScintilla:SKP
+# dep for mplayer, vlc and some others
+aalib:ADD
+akonadi:SKP
+alsa-lib:ADD
+# used for oss software mixing
+alsa-oss:ADD
+# may only needed for apache server
+apr:SKP
+apr-util:SKP
+# used by enchant/webkitgtk
+aspell:SKP
+# nothing i use.
+aspell-en:SKP
+# gtk3 depends on these :/
+at-spi2-atk:ADD
+at-spi2-core:ADD
+# gtk* needs this :/
+atk:ADD
+attica:SKP
+# mpd lists this as dep
+audiofile:ADD
+automoc4:SKP
+# required for gimp me thinks
+babl:ADD
+boost:SKP
+# needed by gtk etc..
+cairo:ADD
+chmlib:SKP
+clucene:SKP
+db42:SKP
+db44:SKP
+db48:SKP
+dbus-glib:ADD
+# nothing i use lists this as a dependency
+dbus-python:SKP
+# lots of gnome/gtk apps need this
+dconf:ADD
+desktop-file-utils:ADD
+djvulibre:SKP
+ebook-tools:SKP
+eigen2:SKP
+# this is used by webkitgtk and some other common apps that i dont use. so SKP
+enchant:SKP
+# not exactly sure but ADD
+esound:ADD
+exiv2:SKP
+# XML parser lib, needed by a lot of things
+expat:ADD
+# used by a few things most notably visualization in ncmpcpp
+fftw:ADD
+freetype:ADD
+# needed by mplayer and some others such as fvwm, fluxbox
+fribidi:ADD
+# needed by ntfs-3g
+fuse:ADD
+# you need this if you want samba
+gamin:SKP
+# needed by w3m, elinks, inkscape..
+gc:ADD
+# needed by empathy, epiphany, gnome-keyring, gnome-shell..
+gcr:SKP
+gd:SKP
+# lots of things list this as a dep
+gdbm:ADD
+gdk-pixbuf2:ADD
+# gimp dependency
+gegl:ADD
+giflib:ADD
+# gnome gnope
+glade3:SKP
+glib:ADD
+glib-networking:ADD
+glib2:ADD
+glibc:ADD
+glibc-i18n:ADD
+glibc-profile:ADD
+# mime lib, not used by anything i use?
+gmime:SKP
+gmm:SKP
+gmp:ADD
+# use this ass default fallback icons
+gnome-icon-theme:ADD
+# gnomethankyou
+gnome-keyring:SKP
+gnome-themes-standard:ADD
+# not using UEFI
+gnu-efi:SKP
+gobject-introspection:SKP
+grantlee:SKP
+gsettings-desktop-schemas:ADD
+gst-plugins-base:ADD
+gst-plugins-good:ADD
+gstreamer:ADD
+gtk+:ADD
+gtk+2:ADD
+gtk+3:ADD
+gtkspell:SKP
+gvfs:SKP
+# needed by pango, chromium
+harfbuzz:ADD
+herqq:SKP
+# default fallback theme
+hicolor-icon-theme:ADD
+# used by firefox etc..
+hunspell:ADD
+icon-naming-utils:ADD
+icu4c:ADD
+ilmbase:SKP
+imlib:SKP
+iso-codes:ADD
+# needed by gimp, gdk-pixbuf2
+jasper:ADD
+js185:SKP
+keybinder:SKP
+keyutils:SKP
+# needed by gimp
+lcms:ADD
+lcms2:ADD
+lesstif:SKP
+# needed by samba and qemu
+libaio:SKP
+# used by cdrdao, mpd etc..
+libao:ADD
+libarchive:ADD
+libart_lgpl:SKP
+# needed by udisks
+libatasmart:SKP
+libbluedevil:SKP
+# mplayer needs this
+libcaca:ADD
+# some gnome sounds
+libcanberra:SKP
+libcap:ADD
+libcddb:ADD
+libcdio:ADD
+# css parsing required by gnome-shell, Cho!
+libcroco:SKP
+libdbusmenu-qt:SKP
+libdiscid:SKP
+libdvdread:ADD
+libelf:ADD
+libevent:ADD
+libexif:ADD
+libffi:ADD
+libglade:ADD
+libgnome-keyring:SKP
+libgphoto2:SKP
+libgpod:SKP
+libgsf:SKP
+libical:SKP
+# needed for imlib2, mpd etc..
+libid3tag:ADD
+libidl:SKP
+# needed for mutt, wget, whois etc...
+libidn:ADD
+# parallel ports, scanners? 
+libieee1284:SKP
+libiodbc:SKP
+libjpeg:ADD
+libkarma:SKP
+liblastfm:SKP
+# need by audio utils, mplayer, cdrdao etc..
+libmad:ADD
+libmcrypt:SKP
+libmcs:SKP
+# needed by gimp, mplayer
+libmng:ADD
+libmowgli:SKP
+libmpc:ADD
+libmsn:SKP
+libmtp:SKP
+libnjb:SKP
+libnl:ADD
+libnl3:ADD
+# firefox notifications etc...
+libnotify:ADD
+libogg:ADD
+liboggz:ADD
+liboil:SKP
+libpcap:ADD
+# needed by libgpod
+libplist:SKP
+libpng:ADD
+libproxy:ADD
+# kdebase-workspace depends
+libraw1394:SKP
+librsvg:ADD
+# needed?
+libsamplerate:ADD
+# needed by gnome-shell, evince, network-manager-applt, webkitgtk
+libsecret:SKP
+# gstreamer, mumble etc..
+libsndfile:ADD
+# needed by gstreamer and other gnome apps
+libsoup:ADD
+# postscript lib needed by evince, zathura-ps
+libspectre:SKP
+libssh:SKP
+libtasn1:ADD
+libtermcap:ADD
+# needed by ffmpeg, mplayer etc...
+libtheora:ADD
+libtiff:ADD
+# needed by guile which is needed by make
+libunistring:ADD
+libusb:ADD
+libusb-compat:ADD
+libvisual:SKP
+libvisual-plugins:SKP
+libvncserver:SKP
+libvorbis:ADD
+libwmf:SKP
+libwmf-docs:SKP
+libwnck:SKP
+# wordperfect documents
+libwpd:SKP
+libxklavier:SKP
+libxml2:ADD
+libxslt:ADD
+# ruby dep
+libyaml:ADD
+libzip:SKP
+loudmouth:SKP
+lzo:SKP
+media-player-info:ADD
+mhash:SKP
+# used by apache, php etc..
+mm:SKP
+mozilla-nss:ADD
+mpfr:ADD
+ncurses:ADD
+neon:SKP
+netpbm:SKP
+notify-python:SKP
+openexr:SKP
+# needed by gtk etc..
+pango:ADD
+parted:ADD
+pcre:ADD
+# kde shit
+phonon:SKP
+phonon-gstreamer:SKP
+phonon-mplayer:SKP
+phonon-xine:SKP
+pil:SKP
+pilot-link:SKP
+# screw polkit dont need dat. it shows as depends for gconf but
+# no problems with what i use.
+polkit:SKP
+polkit-gnome:SKP
+polkit-qt-1:SKP
+poppler:SKP
+poppler-data:SKP
+popt:ADD
+pycairo:ADD
+pycups:SKP
+pycurl:ADD
+pygobject:SKP
+pygtk:ADD
+pyrex:SKP
+qca:SKP
+qca-cyrus-sasl:SKP
+qca-gnupg:SKP
+qca-ossl:SKP
+qimageblitz:SKP
+qjson:SKP
+# vlc..
+qt:ADD
+qtscriptgenerator:SKP
+# libreoffice shit
+raptor2:SKP
+rasqal:SKP
+readline:ADD
+redland:SKP
+sdl:ADD
+seamonkey-solibs:ADD
+sg3_utils:SKP
+shared-desktop-ontologies:SKP
+shared-mime-info:ADD
+sip:SKP
+slang:SKP
+slang1:SKP
+soprano:SKP
+sound-theme-freedesktop:SKP
+# needed by fiefox etc..
+startup-notification:ADD
+strigi:SKP
+svgalib:ADD
+system-config-printer:SKP
+# for adobe type 1 fonts
+t1lib:SKP
+taglib:ADD
+# kde taglib.. blehhhh
+taglib-extras:SKP
+# fallback
+tango-icon-theme:ADD
+tango-icon-theme-extras:ADD
+urwid:SKP
+# video 4 linux 
+v4l-utils:ADD
+virtuoso-ose:SKP
+vte:SKP
+wavpack:ADD
+zlib:ADD
