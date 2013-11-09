@@ -1,7 +1,7 @@
-Slackware i386 tagfiles
-=======================
+Slackware tagfiles
+==================
 
-Slackware installation tagfiles for the i386 architechure.
+Slackware installation tagfiles.
 
 These tagfiles are stripped down for a minimal Slackware install. There may
 still be a few missing libraries and dependencies but hopefully the kinks will
