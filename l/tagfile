@@ -28,7 +28,7 @@ db48:SKP
 dbus-glib:ADD
 dbus-python:SKP
 dconf:ADD
-desktop-file-utils:SKP
+desktop-file-utils:ADD
 djvulibre:SKP
 ebook-tools:SKP
 eigen2:SKP

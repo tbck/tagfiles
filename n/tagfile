@@ -42,7 +42,7 @@ iproute2:SKP
 ipset:SKP
 iptables:ADD
 iptraf-ng:SKP
-iputils:SKP
+iputils:ADD
 ipw2100-fw:ADD
 ipw2200-fw:ADD
 irssi:ADD
@@ -93,7 +93,7 @@ netwrite:SKP
 newspost:SKP
 nfacct:SKP
 nfs-utils:ADD
-nmap:SKP
+nmap:ADD
 nn:SKP
 ntp:ADD
 obex-data-server:SKP
