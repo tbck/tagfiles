@@ -4,7 +4,7 @@ binutils:ADD
 bison:SKP
 ccache:ADD
 clisp:SKP
-cmake:SKP
+cmake:ADD
 cscope:SKP
 cvs:SKP
 dev86:SKP
