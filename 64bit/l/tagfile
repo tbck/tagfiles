@@ -100,7 +100,7 @@ libcanberra:SKP
 libcap:ADD
 libcddb:ADD
 libcdio:ADD
-libcroco:SKP
+libcroco:ADD
 libdbusmenu-qt:SKP
 libdiscid:SKP
 libdvdread:ADD
