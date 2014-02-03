@@ -40,7 +40,7 @@ fftw:ADD
 freetype:ADD
 fribidi:ADD
 fuse:ADD
-gamin:SKP
+gamin:ADD
 gc:ADD
 gcr:SKP
 gd:SKP
